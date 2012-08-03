@@ -16,7 +16,7 @@ import os
 
 ######################## What Is Happening ##############################
 #### The Scrip updates your computers' database of all of files then locates all of the files and directories which have what you entered when you were prompeted "What do you want to delete?: ". After that it loads all of the files and directories into a new file called "willberemoves.sh" which then is told to output its' output with "rm-rf" infront into another file called "willberemoved.sh". Then "willberemoved.sh" is run as a bash script. The files and directories you created are now deleted. After this the shell scripts are deleted as well.
-
+#########################################################################
 
 print ('Instructions and Credits inside This Source Code!  Type vi /usr/bin/dfad')
 print ('TYPES CRTL C TO EXIT!!!!!!!')
